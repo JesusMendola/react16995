@@ -1,11 +1,13 @@
 import './App.css';
 import Menu from './componentes/Menu/';
+import ItemListContainer from './componentes/ItemListContainer/'
 
 
 function App() {
   return (
     <div className="App">
-      <Menu title={'MENU'} buttonMsg={'Carrito'} />
+      <Menu title={'MENU'}  />
+      <ItemListContainer/>
     </div>
   );
 }
