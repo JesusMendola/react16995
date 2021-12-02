@@ -3,8 +3,6 @@ import Menu from './componentes/Menu/';
 import ItemListContainer from './componentes/ItemListContainer/';
 
 
-
-
 function App() {
   return (
     <div className="App">
